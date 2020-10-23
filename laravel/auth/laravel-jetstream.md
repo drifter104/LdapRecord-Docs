@@ -43,6 +43,7 @@ method in our `AuthServiceProvider.php` file:
 
 // ...
 use Laravel\Fortify\Fortify;
+use Illuminate\Support\Facades\Auth;
 
 class AuthServiceProvider extends ServiceProvider
 {
